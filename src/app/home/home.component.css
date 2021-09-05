@@ -1,0 +1,84 @@
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;}
+
+#homeSection{
+    background-color: rgb(26, 188, 156) !important;
+   
+}
+.homeContents h1{
+    font-size: 64px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+.starIcon{
+    position: relative;
+    font-size: 40px;
+    /* margin: 40px 40px; */
+     padding: 0px 20px;
+}
+.starIcon::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    left:100% ;
+    top: 50%;
+}
+/* .starIcon::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 4px;
+    background-color: red;
+    left:100% ;
+    top: 50%;
+} */
+
+.homeContents{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/****************/
+/**********mediaQuery *****************************************************/
+@media screen and (max-width:576px) {
+    .homeContents h1{
+        font-size: 38px;
+    }
+    .homeContents{
+        font-size: 17px;
+    } 
+}
+
+@media screen and (max-width:768px) and (min-width:577px)  {
+    .homeContents h1{
+        font-size: 42px;
+    }
+    .homeContents{
+        font-size: 18px;
+    } 
+}
+
+
+@media screen and (max-width:992px) and (min-width:769px)  {
+    .homeContents h1{
+        font-size: 50px;
+    }
+    .homeContents{
+        font-size: 22px;
+    } 
+}
+
+
+@media screen and (max-width:1200px)and (min-width:993px)  {
+    
+}
+
+
+@media screen and (max-width:1400px)and (min-width:1201px)  {
+    
+}

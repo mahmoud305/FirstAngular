@@ -1,1 +1,77 @@
 /* You can add global styles to this file, and also import other style files */
+.active-navLink{
+    color: coral !important;
+}
+
+.starIcon {
+    position: relative;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+    
+}
+.starIcon i{
+    font-size: 40px;
+    color: white;
+}
+.starIcon::after{
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    background-color: white;
+    width: 100px;
+    height: 5px;
+}
+
+.starIcon::before{
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    background-color: white;
+    width: 100px;
+    height: 5px;
+}
+.pageHeader{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.ko7lyColor{
+    color: rgb(44, 62, 80) !important;
+}
+.background-ko7ly{
+    background-color: rgb(44, 62, 80) !important ;
+}
+.bg-ko7ly::before,.bg-ko7ly::after{
+    background-color: rgb(44, 62, 80) !important ;
+}
+
+.greenColor{
+    color: rgb(26, 188, 156);
+}
+.bg-green
+{
+    background-color: rgb(26, 188, 156);
+}
+@media screen and (max-width:576px) {
+    .pageHeader{
+        font-size: 38px;
+    }
+    
+}
+
+@media screen and (max-width:768px) and (min-width:577px)  {
+    .pageHeader{
+        font-size: 42px;
+    }
+}
+
+
+@media screen and (max-width:992px) and (min-width:769px)  {
+    .pageHeader{
+        font-size: 45px;
+    }
+}

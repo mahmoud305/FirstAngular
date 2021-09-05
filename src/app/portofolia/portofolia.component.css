@@ -1,0 +1,72 @@
+
+
+.starIcon::before{
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    background-color: white;
+    width: 100px;
+    height: 5px;
+}
+
+#portofolia{
+    margin-top: 100px;
+}
+
+.rowItem img , .rowItem{
+    border-radius: 20px;
+}
+
+.imgLayer{
+    position: absolute;
+    border-radius: 20px;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    background-color: rgba(26, 188, 156, 0.9);
+    opacity: 0;
+    transition: all 0.5s ;
+
+}
+.imgLayer i{
+    font-size: 120px;
+    color: white;
+}
+
+.rowItem:hover .imgLayer{
+    cursor: pointer;
+    opacity: 1;
+}
+
+#lightBox{
+    background-color: rgba(0, 0,0,0.6);
+    padding: 40px 100px;
+    display: none;
+}
+
+#lightBox .container{
+    border:5px solid rgb(26, 188, 156);;
+    border-radius: 50px;
+}
+.btn{
+    border-color: rgb(26, 188, 156);
+    transition: background-color 0.5s ;
+}
+.btn:hover{
+    background-color: rgb(21, 154, 128) !important;
+    border-color: rgb(20, 143, 119) !important;
+}
+
+#closeIcon{
+    font-size: 50px;
+position: absolute;
+top: 10px;
+right: 40px;
+
+}
+
+#closeIcon i:hover {
+cursor: pointer;
+}

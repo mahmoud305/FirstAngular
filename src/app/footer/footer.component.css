@@ -1,0 +1,53 @@
+.footerItem{
+    padding: 40px 0px;
+}
+.footerItem p{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.socialIcons i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 50px;
+height: 50px;
+font-size: 22px;
+border: 1px solid white;
+border-radius: 50%;
+color: #FFF;
+margin: 10px;
+padding: 10px;
+transition: background-color 0.5s , color 0.5s;
+cursor: pointer;
+}
+
+
+.socialIcons i:hover{
+    color:#000;
+    background-color: #FFF;
+}
+
+.copyRight{
+    background-color: rgb(26, 37, 47);
+}
+
+/**********mediaQuery *****************************************************/
+@media screen and (max-width:576px) {
+    .footerItem p{
+        font-size: 17px;
+        padding: 10px 0px;
+    }
+    
+}
+
+@media screen and (max-width:768px) and (min-width:577px)  {
+ 
+}
+
+
+@media screen and (max-width:992px) and (min-width:769px)  {
+    
+}
+
+ 

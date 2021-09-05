@@ -1,0 +1,17 @@
+.navBackground{
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    background-color: rgb(44, 62, 80) !important;
+    padding: 20px;
+}
+.navbar-brand{
+    font-size: 28px ;
+}
+.nav-link , .navbar-brand{
+      color: white !important;
+        text-transform: uppercase;
+}
+
+.active-navLink{
+    color: coral !important;
+}

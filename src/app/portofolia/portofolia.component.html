@@ -1,0 +1,94 @@
+<!-- color: rgb(44, 62, 80) !important; -->
+
+<section class="  bg-danger overflow-hidden py-5">
+    <div class="d-flex align-items-center justify-content-center w-100 h-100">
+        <div>
+            <h2 class="ko7lyColor pageHeader">PORTFOLIO</h2>
+            <div class=" stardiv justify-content-center align-items-center w-100 text-center">
+                <span class="starIcon bg-ko7ly"> <i class="ko7lyColor fas fa-star "></i></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-4 mt-3">
+                <div  class="rowItem position-relative">
+                    <img class=""  src="../../assets/1cabin.png" alt="cabin" width="100%">
+                    <div  (click)="showImg($event)"
+                        class="imgLayer position-absolute top-0 start-0 w-100 h-100  d-flex justify-content-center align-items-center">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-3">
+                <div (click)="showImg($event)" class="rowItem position-relative">
+                    <img class=""  src="../../assets/2cake.png" alt="cabin" width="100%">
+                    <div 
+                        class="imgLayer position-absolute top-0 start-0 w-100 h-100  d-flex justify-content-center align-items-center">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-3">
+                <div (click)="showImg($event)" class="rowItem position-relative">
+                    <img class=""  src="../../assets/3circus.png" alt="cabin" width="100%">
+                    <div 
+                        class="imgLayer position-absolute top-0 start-0 w-100 h-100  d-flex justify-content-center align-items-center">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4  mt-3">
+                <div (click)="showImg($event)" class="rowItem position-relative">
+                    <img class=""  src="../../assets/4game.png" alt="cabin" width="100%">
+                    <div 
+                        class="imgLayer position-absolute top-0 start-0 w-100 h-100  d-flex justify-content-center align-items-center">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4  mt-3">
+                <div (click)="showImg($event)" class="rowItem position-relative">
+                    <img class=""  src="../../assets/5safe.png" alt="cabin" width="100%">
+                    <div 
+                        class="imgLayer position-absolute top-0 start-0 w-100 h-100  d-flex justify-content-center align-items-center">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4  mt-3">
+                <div (click)="showImg($event)" class="rowItem position-relative">
+                    <img class=""  src="../../assets/6submarine.png" alt="cabin" width="100%">
+                    <div 
+                        class="imgLayer position-absolute top-0 start-0 w-100 h-100  d-flex justify-content-center align-items-center">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="lightBox" class=" position-absolute top-0 start-0 bottom-0 end-0 ">
+    <div class="container position-relative bg-white text-center ko7lyColor p-4">
+        <div class="row justify-content-center ">
+            <div class="col-md-8"> 
+            <h2 class="text-uppercase fw-bolder fs-1 ">Sweet Cake</h2>
+            <div class=" stardiv justify-content-center align-items-center w-100 text-center">
+                <span class="starIcon bg-ko7ly"> <i class="ko7lyColor fas fa-star "></i></span>
+            </div>
+             <img src="../../assets/2cake.png" class="w-100 rounded-3 my-5" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias
+                magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod
+                consequuntur itaque. Nam. </p>
+
+            <button (click)="closeLightBox($event)" id="closeBtn" class="btn bg-green px-3 py-2 text-white rounded-3 fw-bold border border-1"> <span> <i
+                        class="fas fa-times pe-2"></i> </span> Close Window</button>
+        </div>
+    </div>
+    <div id="closeIcon"(click)="closeLightBox($event)" class="bg-danger" ><i class="fas fa-times greenColor"></i></div>
+    </div>
+
+</div>
+<!-- <script src="../../../node_modules/jquery/dist/jquery.min.js"></script> -->
